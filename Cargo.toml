@@ -1,0 +1,6 @@
+[package]
+name = "Extending_the_Domain_of_an_Elliptic_Curve_to_a_Larger_Field_in_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
