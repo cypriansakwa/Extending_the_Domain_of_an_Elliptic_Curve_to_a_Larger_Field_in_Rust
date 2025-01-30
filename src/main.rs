@@ -12,8 +12,8 @@ impl fmt::Display for F5x2 {
         match (self.a, self.b) {
             (0, 0) => write!(f, "0"),
             (a, 0) => write!(f, "{}", a),
-            (0, b) => write!(f, "{}t", b),
-            (a, b) => write!(f, "{} + {}t", a, b),
+            (0, b) => write!(f, "{}t", b),      
+            (a, b) => write!(f, "{} + {}t", a, b), 
         }
     }
 }
